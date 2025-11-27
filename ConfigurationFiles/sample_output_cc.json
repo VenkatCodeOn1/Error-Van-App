@@ -1,0 +1,63 @@
+{
+  "event" : {
+    "timestamp" : "2025-08-25T05:44:38Z",
+    "id" : "com.tesco.transport.vanscheduling.api.Trip.2375_7559_250825_911_1_16_GB_CC_911LG16",
+    "type" : "com.tesco.transport.vanscheduling.api.Trip.tripFinalised.1.0.0",
+    "traceId" : "18b1fc0f-181c-4a5d-adfd-053c132dcee2-999"
+  },
+  "vehicleTrip" : {
+    "tripId" : "2375_7559_250825_911_1_16_GB_CC",
+    "providerTripId" : null,
+    "friendlyTripId" : "911LG16",
+    "departureTime" : "2025-08-25T16:00:00Z",
+    "returnTime" : "2025-08-25T18:00:00Z",
+    "tripDistance" : 49,
+    "vehicleType" : "COLLECT_FROM_LOCATION",
+    "stops" : [ {
+      "customerOrderShortId" : "9190-8504-02",
+      "customerOrderUUID" : "trn:tesco:order:v3:r2:uuid:4a7c10e2-f145-4b9d-824f-285e98df8c1e",
+      "fulfilmentOrderShortId" : "1D7LO2",
+      "fulfilmentOrderUUID" : "trn:tesco:fulfilmentOrder:uuid:1f0a6a43-b4bd-4c64-ac7c-9a4a98d51707",
+      "departure" : "2025-08-25T18:00:00Z",
+      "arrival" : "2025-08-25T16:00:00Z",
+      "slotEnd" : "2025-08-25T18:00:00Z",
+      "slotStart" : "2025-08-25T16:00:00Z",
+      "latitude" : "57.414316",
+      "longitude" : "-6.2100242",
+      "shipToPostcode" : "IV51 9EG",
+      "distance" : 5,
+      "stopSequenceId" : "1",
+      "idleTime" : "0",
+      "plannedWeightInKg" : 49.8
+    }, {
+      "customerOrderShortId" : "8290-8454-49",
+      "customerOrderUUID" : "trn:tesco:order:v3:r2:uuid:8f41f1af-c21f-4e37-ac41-33618917f147",
+      "fulfilmentOrderShortId" : "1EM255",
+      "fulfilmentOrderUUID" : "trn:tesco:fulfilmentOrder:uuid:7b736ccb-055f-4472-b68f-1e1984a3bcb0",
+      "departure" : "2025-08-25T18:00:00Z",
+      "arrival" : "2025-08-25T16:00:00Z",
+      "slotEnd" : "2025-08-25T18:00:00Z",
+      "slotStart" : "2025-08-25T16:00:00Z",
+      "latitude" : "57.414316",
+      "longitude" : "-6.2100242",
+      "shipToPostcode" : "IV51 9EG",
+      "distance" : 5,
+      "stopSequenceId" : "2",
+      "idleTime" : "0",
+      "plannedWeightInKg" : 54.88
+    } ],
+    "tripStatus" : "FINAL",
+    "countryCode" : "GB",
+    "branchNumber" : "2375",
+    "tescoLocationUUID" : "16b77739-3e57-4aed-a740-2977a10da862",
+    "dateTime" : "2025-08-25T05:44:38Z",
+    "totalNumberOfTrips" : "1",
+    "tripNumber" : "1",
+    "scheduleId" : "schedule-2375-GB-CC-2025-08-25T16:00:00Z-2025-08-25T18:00:00Z-FINAL-911LG16",
+    "waveId" : "3",
+    "fromHubDepartureTime" : "2025-08-25T16:00:00Z",
+    "plannedTripWeightInKg" : 49.8,
+    "fulfilmentMethod" : "CLICK_AND_COLLECT",
+    "fulfilmentProposition" : "GHS"
+  }
+}

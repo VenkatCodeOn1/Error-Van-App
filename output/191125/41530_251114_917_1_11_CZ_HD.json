@@ -1,0 +1,47 @@
+{
+  "event" : {
+    "timestamp" : "2025-11-19T10:46:32Z",
+    "id" : "com.tesco.transport.vanscheduling.api.Trip.41530_251114_917_1_11_CZ_HD_917HD11",
+    "type" : "com.tesco.transport.vanscheduling.api.Trip.tripFinalised.1.0.0",
+    "traceId" : "1d7e48fd-bc75-4e65-a2dd-b8dd343b8060-999"
+  },
+  "vehicleTrip" : {
+    "tripId" : "41530_251114_917_1_11_CZ_HD",
+    "providerTripId" : "10120-1954122",
+    "friendlyTripId" : "917HD11",
+    "departureTime" : "2025-11-14T11:00:00Z",
+    "returnTime" : "2025-11-14T13:00:00Z",
+    "tripDistance" : 22,
+    "vehicleType" : "THIRD_PARTY",
+    "stops" : [ {
+      "customerOrderShortId" : "7401-8744-442",
+      "customerOrderUUID" : "trn:tesco:order:v3:r2:uuid:073fa03f-e1b4-4354-8f83-f618c90dd338",
+      "fulfilmentOrderShortId" : "122O8B",
+      "fulfilmentOrderUUID" : "trn:tesco:fulfilmentOrder:uuid:65a81aec-c8c0-4f7a-be76-1c6b243a0f9f",
+      "departure" : "2025-11-14T13:00:00Z",
+      "arrival" : "2025-11-14T11:00:00Z",
+      "slotEnd" : "2025-11-14T13:00:00Z",
+      "slotStart" : "2025-11-14T11:00:00Z",
+      "latitude" : "47.621416",
+      "longitude" : "16.79089",
+      "shipToPostcode" : "9437",
+      "distance" : 5,
+      "stopSequenceId" : "1",
+      "idleTime" : "0",
+      "plannedWeightInKg" : 22.74
+    } ],
+    "tripStatus" : "FINAL",
+    "countryCode" : "CZ",
+    "branchNumber" : "41530",
+    "tescoLocationUUID" : "25ced338-773b-4c13-8557-2a78836a6726",
+    "dateTime" : "2025-11-19T10:46:32Z",
+    "totalNumberOfTrips" : "1",
+    "tripNumber" : "1",
+    "scheduleId" : "schedule-41530-CZ-HD-2025-11-14T11:00:00Z-2025-11-14T13:00:00Z-FINAL-917HD11",
+    "waveId" : "3",
+    "fromHubDepartureTime" : "2025-11-14T11:00:00Z",
+    "plannedTripWeightInKg" : 22.74,
+    "fulfilmentMethod" : "HOME_DELIVERY",
+    "fulfilmentProposition" : "GHS"
+  }
+}
