@@ -1,9 +1,9 @@
 {
   "event" : {
-    "timestamp" : "2025-11-27T10:42:08Z",
+    "timestamp" : "2025-11-27T17:05:52Z",
     "id" : "com.tesco.transport.vanscheduling.api.Trip.11029_251121_914_1_12_CZ_HD_914HD12",
     "type" : "com.tesco.transport.vanscheduling.api.Trip.tripFinalised.1.0.0",
-    "traceId" : "09081669-5b88-4f05-936f-ece678fe4b43-999"
+    "traceId" : "9bf1f1dc-87c8-4831-92af-582409ffde92-999"
   },
   "vehicleTrip" : {
     "tripId" : "11029_251121_914_1_12_CZ_HD",
@@ -130,7 +130,7 @@
     "countryCode" : "CZ",
     "branchNumber" : "11029",
     "tescoLocationUUID" : "7800849d-e5d2-4025-addf-2c43c56eab12",
-    "dateTime" : "2025-11-27T10:42:08Z",
+    "dateTime" : "2025-11-27T17:05:52Z",
     "totalNumberOfTrips" : "1",
     "tripNumber" : "1",
     "scheduleId" : "schedule-11029-CZ-HD-2025-11-21T12:00:00Z-2025-11-21T13:00:00Z-FINAL-914HD12",

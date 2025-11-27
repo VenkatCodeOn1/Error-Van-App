@@ -17,6 +17,8 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 
+//Main Application Class
+
 public class ErrorVanApp {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
